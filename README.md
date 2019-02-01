@@ -20,4 +20,5 @@
 Full-stack Web Software Developer
 
 •e-mail: ronaldcubillo92@gmail.com
+
 •LinkedIn: linkedin.com/in/ronald-cubillo
