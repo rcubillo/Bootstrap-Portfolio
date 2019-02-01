@@ -16,6 +16,7 @@
 • All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
 
 ## Contact
+
 Full-stack Web Software Developer
 •e-mail: ronaldcubillo92@gmail.com
 •LinkedIn: linkedin.com/in/ronald-cubillo
