@@ -1,0 +1,42 @@
+body{
+  text-align: left;
+}
+
+#middle-section {
+  margin-top: 10%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#f8f9fa!important;
+  color: rgb(87, 81, 81);
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+#footer-coment{
+  padding:10px;
+}
+
+.navbar-brand{
+
+}
+
+#navbarSupportedContent{
+margin-left:57%;
+}
+
+#nav-bar-up{
+  padding: 0;
+}
+
+.header{
+  border-bottom: 2px solid black;
+  width: 100%;
+  background-color: #f8f9fa!important;
+  font-family: cursive;
+  font-size: 25px;
+}
