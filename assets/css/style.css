@@ -21,10 +21,6 @@ body{
   padding:10px;
 }
 
-.navbar-brand{
-
-}
-
 #navbarSupportedContent{
 margin-left:57%;
 }
@@ -39,4 +35,35 @@ margin-left:57%;
   background-color: #f8f9fa!important;
   font-family: cursive;
   font-size: 25px;
+}
+
+.ronald{
+  height:380px;
+}
+
+.card-img-top{
+  height: 250px;
+}
+
+#first-container{
+  text-align: center;
+}
+
+#second-container{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#game4{
+  position: relative;
+}
+
+.text1{
+  position: absolute;
+  top: 200px;
+  background-color:#4aaaaa;
+  color: black ;
+  width:100%;
+  left:0;
+  text-decoration: none;
 }

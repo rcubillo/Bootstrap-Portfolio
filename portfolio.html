@@ -36,29 +36,28 @@
 
   <body>
     <!-- navbar -->
-    <div class="container" id="nav-bar-up">
-      <div class="row">
+    <header class="header">
+       <div class="container" id="nav-bar-up">
+      <div class="row" id="large">
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Ronald Cubillo Jimenez</a>
             <button
-              class="navbar-toggler"
-              type="button"
+              class="navbar-toggler" type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
@@ -71,72 +70,78 @@
         </div>
       </div>
     </div>
+  </header>
+
     <!-- main section -->
 
-    <div class="container">
+    <div class="container" id="first-container">
       <div class="row" id="middle-section">
         <div class="col-md-12">
           <div class="jumbotron jumbotron-fluid">
+            <!-- First group of 3 -->
             <div class="container">
               <div class="row">
                 <div class="col-md-4">
-                  <div class="card">
-                    <img
-                      src="assets/images/chino.png"
-                      class="card-img-top"
-                      alt="my-picture"
-                    />
+                  <div class="card" id="game1">
+                    <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                    <div>
+                        <a class="text1" href="#">Game1</a>
+                      </div>
+                  </div>
+
+                </div>
+                <div class="col-md-4" id="game2">
+                   <div class="card">
+                   <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                   <div>
+                      <a class="text1" href="#">Game2</a>
+                    </div>
+                   </div>
+
+                </div>
+                <div class="col-md-4">
+                  <div class="card" id="game3">
+                  <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                  <div>
+                      <a class="text1" href="#">Game3</a>
+                    </div>
+                  </div>
+                </div>
                   </div>
                 </div>
 
-                <div class="col-md-8">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages, and more
-                    recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.Lorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged.
-                  </p>
-                </div>
-
+                <div class="container" id="second-container">
                 <div class="row">
-                  <div class="col-md-12">
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing Lorem
-                      Ipsum passages, and more recently with desktop publishing
-                      software like Aldus PageMaker including versions of Lorem
-                      Ipsum.
-                    </p>
+                    <div class="col-md-4">
+                      <div class="card" id="game4">
+                        <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                        <div>
+                          <a class="text1" href="#">Game4</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                       <div class="card" id="game5">
+                       <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                       <div>
+                          <a class="text1" href="#">Game5</a>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" id="game5">
+                      <img src="assets/images/chino.png" class="card-img-top"  alt="my-picture"/>
+                      <div>
+                          <a class="text1" href="#">Game6</a>
+                        </div>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
+
+
               </div>
             </div>
           </div>
@@ -147,7 +152,7 @@
     <!-- footer -->
 
     <div class="footer">
-      <p>Footer</p>
+      <p id="footer-coment">©opyright</p>
     </div>
   </body>
 </html>
