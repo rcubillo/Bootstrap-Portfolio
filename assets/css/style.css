@@ -32,8 +32,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   color:rgb(248, 245, 245);
 }
 
-
-
 #footer-coment{
   padding:10px;
 }
@@ -61,7 +59,8 @@ margin-left:56%;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-  color:orange;
+  color:rgb(31, 77, 161);
+  font-weight: bolder;
 }
 
 .ronald{
@@ -106,3 +105,8 @@ color: rgb(161, 153, 153);
 .jumbotron{
   color:black;
 }
+
+.card-body{
+text-align: center;
+}
+
